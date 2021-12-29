@@ -1,4 +1,4 @@
-
+import Image from "next/image"
 
 
 
@@ -11,15 +11,15 @@ function Omeni(){
 
     
 
-    <div class="container">
+    <div className="container">
 
-        <div class="profilepic">
-            <img src="img/coach.jpg" />
+        <div className="profilepic">
+            <Image src="img/coach.jpg" width={300} height={300} alt=""/>
         </div>
 
-        <div class="omeni">
+        <div className="omeni">
 
-            <div class="profil">
+            <div className="profil">
 
 
 
@@ -30,7 +30,7 @@ function Omeni(){
 
             </div>
 
-            <div class="karijera">
+            <div className="karijera">
                 <h1>Karijera</h1>
 
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur accumsan tincidunt mauris sit amet molestie. Mauris congue orci eget velit tincidunt, at scelerisque lectus volutpat. Aliquam aliquam tortor urna, sit amet rhoncus nunc faucibus sit amet. Donec pharetra dignissim arcu, sed malesuada orci auctor nec. Morbi accumsan justo ipsum, quis iaculis nunc laoreet in. Curabitur viverra elementum ullamcorper.</p>
@@ -41,22 +41,22 @@ function Omeni(){
 
         <h2>Moje aktivnosti</h2>
 
-        <div class="slikeomeni">
-            <div class="slika">
-                <img src="img/zastoja1.jpg" />
+        <div className="slikeomeni">
+            <div className="slika">
+                <Image src="img/zastoja1.jpg" width={300} height={300} alt="" />
                 <p>Trening s klijentom</p>
             </div>
 
 
-            <div class="slika">
-                <img src="img/zastoja2.jpg" />
+            <div className="slika">
+                <Image src="img/zastoja2.jpg"width={300} height={300} alt="" />
                 <p>Trening na nogometnom terenu</p>
             </div>
 
 
 
-            <div class="slika">
-                <img src="img/zastoja3.jpg" />
+            <div className="slika">
+                <Image src="img/zastoja3.jpg" width={300} height={300} alt=""/>
                 <p>Podučavanje djece preškolske dobi</p>
             </div>
 
@@ -64,26 +64,15 @@ function Omeni(){
 
         <h2>Moji certifikati</h2>
 
-        <div class="certifikati">
+        <div className="certifikati">
 
-            <img src="img/certifikat1.jpg" />
-            <img src="img/certifikat2.jpg" />
+            <Image src="img/certifikat1.jpg" width={300} height={300} alt="" />
+            <Image src="img/certifikat2.jpg" width={300} height={300} alt=""/>
         </div>
 
         </div>
 
-        <footer>
-
-            <div class="container">
-                <div class="footer">
-                    <a href="#top"><img src="img/c4y.png" />Strength & Conditioning</a>
-                </div>
-            </div>
-
-        </footer>
-
-
-
+        
         
 </body>
     );
