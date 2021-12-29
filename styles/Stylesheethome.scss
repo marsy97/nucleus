@@ -32,8 +32,6 @@ header {
 }
 
 
-
-
 /*TEKST NA SREDINI-----------------------------------------------------*/
 
 span{
@@ -405,15 +403,6 @@ footer img {
         margin-top:10rem;
         width:80%;
     }
-   
-
-    .dario{
-        font-size:20px;
-        
-    }
-   
-
-        
 
     .text h1 {
         text-align: center;
@@ -445,37 +434,15 @@ footer img {
         font-weight: 500;
     }
 
-    .boxshadow{
-        flex:100%;
-        margin-bottom:20px;
-        padding-bottom:15px; 
-    }
-
-    .box{flex:100%;
-         margin-bottom:20px;
-         
-    }
 
     .zastoimg{
         display:none;
     }
 
-    .zastoja a {
-        background-color: $primary-color;
-        left: 20%;
-    }
-
-    .zastoja h3{
-        padding-top:30px;
-    }
 
     .bjelo{
         padding-top:150px;
 
-    }
-
-    #myCarousel{
-        width:100%;
     }
 
     .footer img{height:30px;
@@ -529,15 +496,9 @@ footer img {
         
     }
 
-
-        .dario{position:absolute;
-               left:0;
-               top:10px;
-        }
-
-    
-
-        .active{color:$primary-color !important;}
+.active{
+    color:$primary-color !important;
+}
 
         #overlay{z-index:5;
                  height:100vh;
@@ -562,14 +523,6 @@ footer img {
 
     header {
         background-position: center;
-    }
-
-    .dario img {
-        height: 30px;
-    }
-
-    .dario {
-        font-size: 16px;
     }
 
     .text h1 {
@@ -604,28 +557,27 @@ footer img {
     }
 
     .boxshadow {
-        flex: 100%;
-        margin-bottom: 20px;
-        padding-bottom: 15px;
+        
+        margin-bottom: 3rem;
+        padding-bottom: 0;
     }
 
     .box {
+        
         flex: 100%;
-        margin-bottom: 20px;
+        margin-bottom: 3rem;
+        
     }
 
     .zastoimg {
         display: none;
     }
 
-    .zastoja a {
-        background-color: $primary-color;
-        left: 20%;
+    .zasto h3{
+        padding-top:1.5rem;
     }
 
-    .zastoja h3 {
-        padding-top: 30px;
-    }
+
 
     .bjelo {
         padding-top: 150px;

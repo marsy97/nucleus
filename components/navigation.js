@@ -9,7 +9,25 @@ import {useState} from "react";
 
 function Navigation() {
 
-  const[state,setState]=useState(true);
+  const[sidebar,setSidebar]=useState(false);
+
+  const showSidebar=()=>setSidebar(!sidebar);
+
+  
+  async function hide(){
+    if(sidebar){
+      document.getElementById("toggler").classList.remove("collapsed");
+      document.getElementById("responsive-navbar-nav").classList.add("show");
+      
+    }else{
+      document.getElementById("toggler").classList.add("collapsed");
+      document.getElementById("responsive-navbar-nav").classList.remove("show");
+    }
+
+    
+  }
+
+  
 
     return(
         <Navbar  collapseOnSelect fixed="top" expand="lg" className={styles.navMain} variant="dark" >
@@ -20,17 +38,17 @@ function Navigation() {
               </Link>
             </Navbar.Brand>
 
-            <Navbar.Toggle bsPrefix="toggler" className={styles.togglerWrap}/>
+            <Navbar.Toggle id="toggler" bsPrefix="toggler" className={styles.togglerWrap}/>
             <Navbar.Collapse className={styles.fgrow} id="responsive-navbar-nav">
               
               <Nav>
 
                
-                  <Link href="/" onClick={() => setState(false)}>
+                  <Link href="/" onClick={showSidebar,hide()}>
                     <a className={styles.link}>POČETNA</a>
                   </Link>
                 
-                    <Link eventKey={2} href="/kontakt">
+                    <Link href="/kontakt">
                       <a className={styles.link}>KONTAKT</a>
                     </Link>
                   
@@ -40,7 +58,7 @@ function Navigation() {
                   </Link>
                 
 
-                  <Link href="/klijenti">
+                  <Link href="/Blog">
                     <a className={styles.link}>BLOG</a>
                     </Link>
                

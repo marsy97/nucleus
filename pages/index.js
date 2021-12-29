@@ -1,6 +1,7 @@
 
 import Link from 'next/link';
 import {Zoom, Fade} from 'react-reveal';
+import Testimonials from "../components/testimonials";
 
 
 
@@ -65,88 +66,13 @@ export default function Home() {
     <div className="zastoimg"></div>
 
     <Fade left>
-     <h2 className="bjelo">Usluge koje nudimo</h2>
+     <h2 className="bjelo">Neki od naših zadovoljnih korisnika</h2>
 
-    <article className="container zastoja">
+    <article className="container users">
 
-
-        <div className="row ">
-            <div style={{backgroundImage: "url(https://firebasestorage.googleapis.com/v0/b/strengthandconditioning.appspot.com/o/Darac%2Fbox1.jpg?alt=media&token=643f2e96-97d1-45ed-bf3f-902c5cc45b13)"}} className="col box">
-
-                <h3>Duge godine treniranja</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-
-                <a href="omeni.html" className="rounded-pill">O meni</a>
-
-            </div>
-
-            <div style={{
-                backgroundImage: "url(https://firebasestorage.googleapis.com/v0/b/strengthandconditioning.appspot.com/o/Darac%2Fbox2.jpg?alt=media&token=88ae236e-10fa-4f02-9cfa-c419dec66a27)",
-                backgroundImage: "linearGradient(rgba(0,0,0,0.5),rgba(0,0,0,0.2))"}} 
-                className="col box">
-
-                <h3>Iskustvo s brojnim klijentima</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-
-                <a href="klijenti.html" className="rounded-pill">Klijenti</a>
-            </div>
-
-            <div style={{backgroundImage: `url("https://firebasestorage.googleapis.com/v0/b/strengthandconditioning.appspot.com/o/Darac%2Fbox3.jpg?alt=media&token=aeeee29b-7572-4a46-8798-2c53fca66295")` }} className="col box">
-
-                <h3>Povoljni treninzi</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-
-                <a href="cjenik.html" className="rounded-pill">Cjenik</a>
-            </div>
-
-        </div>
-
+        <Testimonials/>
     </article>
     </Fade>
-
-    <div className="bgcolor">
-
-        <div id="myCarousel" className="carousel slide" data-bs-ride="carousel">
-            <div className="carousel-indicators">
-                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div className="carousel-inner" style={{width:"100%",height:"10rem"}}>
-                <div className="carousel-item active">
-                    <img src="./img/zastoja1.jpg" className="d-block w-100" alt="..."/>
-                    <div className="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
-                    </div>
-                </div>
-                <div className="carousel-item">
-                    <img src={"./img/zastoja2.jpg"} className="d-block w-100" alt="..."/>
-                    <div className="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Some representative placeholder content for the second slide.</p>
-                    </div>
-                </div>
-
-                <div className="carousel-item"  style={{width:"30%"}}>
-                    <img src="/zastoja3.jpg" style={{width:"100%",height:"100%",objectFit:"fit"}} className="d-block w-100" alt="..."/>
-                    <div className="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
-                    </div>
-                </div>
-            </div>
-            <button className="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span className="visually-hidden">Previous</span>
-            </button>
-            <button className="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-                <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                <span className="visually-hidden">Next</span>
-            </button>
-        </div>
-
-        </div>
 
 
     <div className="formimg"></div>

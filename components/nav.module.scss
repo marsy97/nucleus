@@ -1,6 +1,13 @@
 $primary-color:#C16329;
 
 
+@media (min-width:641px)  {
+    .togglerWrap{
+        display:none;
+
+    }
+}
+
 
 .container {
     padding: 0;
@@ -26,10 +33,12 @@ $primary-color:#C16329;
 }
 
 .navMain{
-   
+        box-shadow:rgb(122, 68, 23) 1px 1px;
         padding-top: 10px;
-        background:white!important;
+        background:rgb(250, 250, 250)!important;
 }
+
+
 
 
 
