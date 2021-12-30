@@ -1,5 +1,5 @@
 export const html = `
-<p style="text-align:center"><u>Zasto daracr</u></p>
+<div class="image"></div>
 
 <p>csknfdskj</p>
 

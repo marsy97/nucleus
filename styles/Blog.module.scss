@@ -1,16 +1,19 @@
+$primary-color:#C16329;
+
 .h1{
-    color:#8CBE56;
+    color:$primary-color;
 }
 
 .TopCard{
     width:1400px;
     max-width: 90%;
-    margin:0 auto;
+    margin-top:5rem;
+   
     font-size: 1.5rem;
     position:relative;
     padding:1rem 4.5rem;
     box-sizing: border-box;
-    box-shadow: 0px 0px 10px 0px black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     @media screen and (max-width:700px) {
         padding:1rem;
     }
@@ -22,7 +25,8 @@
     top:0;
     bottom: 0;
     width:3rem;
-    background-color: #8CBE56;
+    background-color: $primary-color;
+
     @media screen and (max-width:700px) {
         right:0;
         height: 3rem;

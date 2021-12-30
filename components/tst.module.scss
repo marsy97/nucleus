@@ -1,3 +1,6 @@
+$primary-color:#C16329;
+
+
 .wrapper{
   margin-bottom:5rem;
 }
@@ -31,7 +34,7 @@
     padding-bottom: 8%;
     padding-left: 5%;
     padding-right: 5%;
-    border: 1px solid #ddd;
+    border: 1px solid $primary-color!important;
     height: 286px;
   }
   
@@ -86,9 +89,9 @@
     line-height: 0;
   }
   
-  .carousel .control-dots .dot {
+ .carousel .control-dots .dot {
     box-shadow: none !important;
-    background: #454545 !important;
+    background: red !important;
     outline: 0;
   }
   

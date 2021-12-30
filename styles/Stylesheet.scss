@@ -41,7 +41,8 @@ header {
 
 .lijevo{
     flex:50%;
-    padding-left:15px;
+    padding-left:1rem;
+    
 }
 .desno {
     flex: 50%;
@@ -49,10 +50,13 @@ header {
 }
 
 .formwrapper {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius:1rem;
     max-width: 500px; 
     font-family: 'poppins';
     margin:50px 0px;
     background-color: #efeeee;
+    padding:1rem;
    
     
 }
@@ -174,17 +178,15 @@ textarea {
     flex-wrap:wrap;
 }
 
-    .red33 img {
-        margin: 20px 20px;
-        max-width: 350px;
-        flex: 33%;
-        
-        border-radius: 10px;
-        transition: 0.5s;
+    .red33 .myImages {
+        margin: 20px 20px!important;
+        max-width: 350px!important;
+        border-radius: 10px!important;
+        transition: 0.5s!important;
     }
 
 .h2gal {
-    padding-left:6rem;
+    padding-left:3rem;
     font-weight:600;
     color:#111;
 }
@@ -264,6 +266,7 @@ textarea {
 
 
     .omeni{
+        margin-top:10rem;
         display:flex;
         padding-bottom:10rem;
     }

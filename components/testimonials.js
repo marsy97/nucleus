@@ -18,11 +18,10 @@ export default class Testimonials extends Component {
         <div>
           <Image src="/shirley.png" width={150} height={150} />
           <div className={styles.myCarousel}>
-            <h3>Shirley Fultz</h3>
-            <h4>Designer</h4>
+            <h3>Ivana Ivanić</h3>
+            <h4>FITNESS TRENER</h4>
             <p>
-              Its freeing to be able to catch up on customized news and not be
-              distracted by a social media element on the same site
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur accumsan tincidunt mauris sit amet molestie.
             </p>
           </div>
         </div>
@@ -30,11 +29,10 @@ export default class Testimonials extends Component {
         <div>
           <Image src="/daniel.png" width={150} height={150} />
           <div className={styles.myCarousel}>
-            <h3>Daniel Keystone</h3>
-            <h4>Designer</h4>
+            <h3>Ante Antić</h3>
+            <h4>KLIJENT</h4>
             <p>
-              The simple and intuitive design makes it easy for me use. I highly
-              recommend Fetch to my peers.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur accumsan tincidunt mauris sit amet molestie.
             </p>
           </div>
         </div>
@@ -42,11 +40,10 @@ export default class Testimonials extends Component {
         <div>
           <Image src="/theo.png" width={150} height={150} />
           <div className={styles.myCarousel}>
-            <h3>Theo Sorel</h3>
-            <h4>Designer</h4>
+            <h3>Tin Tin</h3>
+            <h4>KLIJENT</h4>
             <p>
-              I enjoy catching up with Fetch on my laptop, or on my phone when
-              Im on the go!
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur accumsan tincidunt mauris sit amet molestie.
             </p>
           </div>
         </div>

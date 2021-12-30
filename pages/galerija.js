@@ -17,28 +17,23 @@ function Galerija (){
     <h2 className="h2gal">Galerija</h2>
 
     <div className="red33">
-        <Image className="pop myImages" alt="" id="myImg" width={300} height={300}src="css/img/gal1.jpg" />
-        <Image className="pop myImages" alt=""id="myImg" width={300} height={300} src="css/img/gal2.jpg" />
-        <Image className="pop myImages" alt=""id="myImg" width={300} height={300}src="css/img/gal3.jpg" />
+        <Image className="myImages" alt="" id="myImg" width={300} height={300}src="/gal1.jpg" />
+        <Image className="pop myImages" alt=""id="myImg" width={300} height={300} src="/gal2.jpg" />
+        <Image className="pop myImages" alt=""id="myImg" width={300} height={300}src="/gal3.jpg" />
 
 
 
-        <Image className="pop myImages" alt=""id="myImg" width={300} height={300}src="css/img/gal4.jpg" />
-        <Image className="pop myImages" alt=""id="myImg" width={300} height={300}src="css/img/gal5.jpg" />
-        <Image className="pop myImages" alt=""id="myImg" width={300} height={300}src="css/img/gal6.jpg" />
+        <Image className="pop myImages" alt=""id="myImg" width={300} height={300}src="/gal4.jpg" />
+        <Image className="pop myImages" alt=""id="myImg" width={300} height={300}src="/gal5.jpg" />
+        <Image className="pop myImages" alt=""id="myImg" width={300} height={300}src="/gal6.jpg" />
 
 
 
-        <Image className="pop myImages" alt=""id="myImg" width={300} height={300} src="css/img/gal7.jpg" />
-        <Image className="pop myImages" alt=""id="myImg" width={300} height={300}src="css/img/gal8.jpg" />
-        <Image className="pop myImages" alt=""id="myImg" width={300} height={300}src="css/img/gal9.jpg" />
+        <Image className="pop myImages" alt=""id="myImg" width={300} height={300} src="/gal7.jpg" />
+        <Image className="pop myImages" alt=""id="myImg" width={300} height={300}src="/gal8.jpg" />
+        <Image className="pop myImages" alt=""id="myImg" width={300} height={300}src="/gal9.jpg" />
     </div>
 
-    <div id="myModal" className="modal">
-        <span className="close">&times;</span>
-        <Image className="modal-content" alt=""width={300} height={300} id="img01"/>
-
-    </div>
 
 
 </div>
