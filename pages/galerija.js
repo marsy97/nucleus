@@ -31,7 +31,7 @@ function Galerija (){
 
         <Image className="pop myImages" alt=""id="myImg" width={300} height={300} src="/gal7.jpg" />
         <Image className="pop myImages" alt=""id="myImg" width={300} height={300}src="/gal8.jpg" />
-        <Image className="pop myImages" alt=""id="myImg" width={300} height={300}src="/gal9.jpg" />
+        
     </div>
 
 
