@@ -48,7 +48,7 @@ const Author: React.FC<{ name: string; image: string }> = ({ name, image }) => {
   return (
     <div className={styles.Author}>
       <div style={{ width: 50, height: 50, overflow: "hidden", borderRadius: "50%", position: "relative" }}>
-        <Image src={image} layout="fill" objectPosition="center" />
+        <Image alt="" src={image} layout="fill" objectPosition="center" />
       </div>
       <h3 style={{ fontWeight: 400 }}>{name}</h3>
     </div>

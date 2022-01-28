@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container'
 import Link from 'next/link';
 import Image from "next/image";
 import styles from "./nav.module.scss";
-import {useState} from "react";
+import {useState,useEffect} from "react";
 
 
 function Navigation() {
@@ -14,15 +14,23 @@ function Navigation() {
   const showSidebar=()=>setSidebar(!sidebar);
 
   
-  async function hide(){
+  function Hide(){
+    useEffect(() => {
+      const toggler=document.getElementById("toggler")
+    const navbar=document.getElementById("responsive-navbar-nav")
+
     if(sidebar){
-      document.getElementById("toggler").classList.remove("collapsed");
-      document.getElementById("responsive-navbar-nav").classList.add("show");
+      
+      navbar.classList.add("show");
+      toggler.classList.remove("collapsed");
       
     }else{
-      document.getElementById("toggler").classList.add("collapsed");
-      document.getElementById("responsive-navbar-nav").classList.remove("show");
+      toggler.classList.add("collapsed");
+      navbar.classList.remove("show");
     }
+      
+    });
+    
 
     
   }
@@ -34,7 +42,7 @@ function Navigation() {
           <Container >
             <Navbar.Brand>
               <Link href="/" className={styles.logo}>
-                <a><Image src="/nucleus.svg" width={50} height={50} /></a>
+                <a><Image alt="" src="/nucleus.svg" width={50} height={50} /></a>
               </Link>
             </Navbar.Brand>
 
@@ -44,7 +52,7 @@ function Navigation() {
               <Nav>
 
                
-                  <Link href="/" onClick={showSidebar,hide()}>
+                  <Link href="/" onClick={showSidebar,Hide()}>
                     <a className={styles.link}>POČETNA</a>
                   </Link>
                 

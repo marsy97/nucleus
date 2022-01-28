@@ -16,7 +16,7 @@ export default class Testimonials extends Component {
         interval={6100}
       >
         <div>
-          <Image src="/shirley.png" width={150} height={150} />
+          <Image alt="" src="/shirley.png" width={150} height={150} />
           <div className={styles.myCarousel}>
             <h3>Ivana Ivanić</h3>
             <h4>FITNESS TRENER</h4>
@@ -27,7 +27,7 @@ export default class Testimonials extends Component {
         </div>
 
         <div>
-          <Image src="/daniel.png" width={150} height={150} />
+          <Image alt="" src="/daniel.png" width={150} height={150} />
           <div className={styles.myCarousel}>
             <h3>Ante Antić</h3>
             <h4>KLIJENT</h4>
@@ -38,7 +38,7 @@ export default class Testimonials extends Component {
         </div>
 
         <div>
-          <Image src="/theo.png" width={150} height={150} />
+          <Image alt="" src="/theo.png" width={150} height={150} />
           <div className={styles.myCarousel}>
             <h3>Tin Tin</h3>
             <h4>KLIJENT</h4>
