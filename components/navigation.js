@@ -61,9 +61,7 @@ function Navigation() {
                     </Link>
                   
 
-                  <Link eventKey={2} href="/cjenik">
-                    <a className={styles.link}>CJENIK</a>
-                  </Link>
+                  
                 
 
                   <Link href="/Blog">

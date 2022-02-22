@@ -5,7 +5,7 @@ export const html = `
 
 <ol>
 	<li>fsdkb</li>
-	<li>nece</li>
-	<li>to</li>
+	<li>clanak</li>
+	<li>dd</li>
 </ol>
 `;

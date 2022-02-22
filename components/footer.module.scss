@@ -1,0 +1,48 @@
+
+
+.footer{
+    background:white;
+    box-shadow:3px 3px 3px 5px  rgb(214, 214, 214);
+    display:flex;
+    position:relative;
+    height:100%;
+    
+    
+    
+}
+
+.container{
+    width:80%;
+    margin:auto;
+}
+
+.footerInner{
+    display:Flex;
+    justify-content: space-between;
+    align-items: center;
+   
+
+    a{
+        color: rgb(82, 36, 6);
+        
+    }
+
+    ul{
+        list-style-type:circle;
+        padding-top:2rem;
+        
+        
+    }
+    padding-bottom:3rem;
+   
+}
+
+.copy{
+    position:absolute;
+    bottom:0;
+    left:50%;
+    padding-top:3rem;
+    transform:translate(-50%,0);
+    color:rgb(182, 181, 181);
+
+}

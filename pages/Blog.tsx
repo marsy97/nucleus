@@ -23,7 +23,7 @@ const Blog: NextPage = () => {
         <Articles />
       </main>
 
-      <footer className={styles.footer}></footer>
+      
     </div>
   );
 };

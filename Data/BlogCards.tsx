@@ -6,7 +6,7 @@ export const ArticleCards = [
     articleTitle: "Bicepsi s Dariom",
     articleParagraph:
       "Većina sportaša ima praksu provoditi neki oblik istezanje prije treninga. Osim što će koristiti za akutno povećanje pokretljivosti i elastičnosti mišića, mnogi vjeruju da istezanje ima veliki utjecaj na prevenciju ozljeda.",
-    articleDate: "24.12.2021.",
+    articleDate: "24.1.2021.",
     link: "/Blog/Biceps",
   },
   {
@@ -16,7 +16,7 @@ export const ArticleCards = [
     articleTitle: "Bicepsi s Dariom",
     articleParagraph:
       "Većina sportaša ima praksu provoditi neki oblik istezanje prije treninga. Osim što će koristiti za akutno povećanje pokretljivosti i elastičnosti mišića, mnogi vjeruju da istezanje ima veliki utjecaj na prevenciju ozljeda.",
-    articleDate: "24.12.2021.",
+    articleDate: "24.1.2021.",
     link: "/Blog/Biceps2",
   },
   {
@@ -26,7 +26,7 @@ export const ArticleCards = [
     articleTitle: "Bicepsi s Dariom",
     articleParagraph:
       "Većina sportaša ima praksu provoditi neki oblik istezanje prije treninga. Osim što će koristiti za akutno povećanje pokretljivosti i elastičnosti mišića, mnogi vjeruju da istezanje ima veliki utjecaj na prevenciju ozljeda.",
-    articleDate: "24.12.2021.",
-    link: "/Blog/Biceps2",
+    articleDate: "24.1.2021.",
+    link: "/Blog/Biceps3",
   },
 ];
