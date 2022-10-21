@@ -75,7 +75,7 @@ function Navigation() {
                 
 
                   <Link href="/galerija">
-                    <a className={styles.link}>GALERIJA</a>
+                    <a className={styles.link}>ONLINE TRENING</a>
                   </Link>
                 
               </Nav>
