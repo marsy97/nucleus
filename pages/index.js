@@ -2,10 +2,12 @@
 import Link from 'next/link';
 import {Zoom, Fade} from 'react-reveal';
 import Testimonials from "../components/testimonials";
+import emailjs from '@emailjs/browser';
+import React, { useRef } from 'react';
 
 
 
-export default function Home() {visualViewport
+export default function Home() {
     const form = useRef();
 
   const sendEmail = (e) => {
@@ -18,7 +20,7 @@ export default function Home() {visualViewport
           console.log(error.text);
       });
   };
-  v
+  
   return (
       <>
       
@@ -97,20 +99,20 @@ export default function Home() {visualViewport
 
             <div className="input_field">
                 <label>Ime i Prezime</label>
-                <input className="user_namev" />
+                <input name="user_name" className="input" />
                               
                 
             </div>
 
             <div className="input_field">
                 <label>Telefon</label>
-                <input type="user_tel"  className="input" />
+                <input name="user_tel" type="tel"  className="input" />
                 
             </div>
 
             <div className="input_field">
                 <label>Email</label>
-                <input type="user_email"   className="input" />
+                <input name="user_email" type="email"   className="input" />
                 
             </div>
 
