@@ -1,0 +1,572 @@
+$primary-color:#C16329;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'poppins';
+    background-color: #efeeee;
+}
+
+.container {
+    padding: 0;
+    
+}
+
+.active {
+    color: $primary-color;
+}
+
+
+/*-----------------------------------------------------------------------*/
+
+/*-------------------HEADER--------------------------------------------*/
+header {
+    background-color:#111;
+    width: 100%;
+    height:90px;
+    position: relative;
+    margin: 0;
+}
+
+/*-------------------------KONTAKT----------------------------------------------*/
+.kontakt{
+    display:flex;
+    margin-top:5rem;
+    
+}
+
+.lijevo{
+    flex:50%;
+    
+    margin-top:10rem;
+    
+}
+.desno {
+    flex:40%;
+    padding-left: 10px;
+}
+
+.formwrapper {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius:1rem;
+    max-width: 500px; 
+    font-family: 'poppins';
+    
+    background-color: #efeeee;
+    padding:1rem;
+   
+    
+}
+
+.fa-instagram{
+    height:30px;
+    margin:1rem 0;
+}
+
+.fa-facebook{
+    height:30px;
+    padding-left:1rem;
+    margin:1rem 0;
+}
+
+.form {
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.formwrapper .title {
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.formwrapper .form {
+    width: 100%;
+}
+
+input{
+    background-color:#efeeee;
+}
+
+textarea {
+    background-color: #efeeee;
+}
+
+    .formwrapper .form .input_field label {
+        width: 200px;
+        margin-right: 10px;
+        font-size: 14px;
+        padding: 10px 0px;
+        font-weight: 500;
+    }
+
+    .formwrapper .form .input_field .input,
+    .formwrapper .form .input_field .textarea {
+        width: 100%;
+        outline: none;
+        border: 1px solid $primary-color;
+        font-size: 15px;
+        padding: 8px 10px;
+        border-radius: 5px;
+        transition: all 0.3s ease ease-out;
+    }
+
+    .formwrapper .form .input_field .textarea {
+        resize: none;
+        height: 125px;
+    }
+
+        .formwrapper .form .input_field .input:focus,
+        .formwrapper .form .input_field .textarea:focus {
+            border: 3px solid $primary-color;
+        }
+
+    .formwrapper .form .input_field .btn {
+        width: 100%;
+        background: $primary-color;
+        border: 0;
+        outline: none;
+        padding: 10px 0px;
+        margin-top: 20px;
+        text-align: center;
+        color: white;
+        font-family: 'poppins';
+        font-weight: 600;
+        letter-spacing: 0.5px;
+    }
+
+        .formwrapper .form .input_field .btn:hover {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        .info h3{
+            font-size:20px;
+            font-weight:600;
+            padding:60px 0px 20px;
+        }
+
+        .info span{
+            font-weight:600;
+            color:$primary-color;
+        }
+
+        .info p{
+            font-weight:400;
+            margin-bottom:0px;
+            padding-bottom:5px;
+        }
+
+        .karta{
+            margin-bottom:50px;
+        }
+
+        .bjelo{height:95px;}
+
+/*-----------------online trening-------------------------------*/
+
+
+
+.red33 {
+    display:flex;
+    padding-bottom:3rem;
+    justify-content:flex-start;
+    flex-wrap:wrap;
+}
+.red33 h3{
+    font-size: 1.5rem;
+    color:#212529;
+    font-weight: 500;
+    
+}
+
+.red33 p{
+    width:55%;
+}
+
+.h2gal{
+    text-align: left;
+    padding-bottom:2rem;
+    
+}
+
+.lista h3{
+    padding-bottom: 2rem;
+}
+
+.lista li{
+    padding:0.4rem 0;
+}
+
+.trening{display: flex;}
+
+.left{
+    width:50%;
+      
+      
+  }
+  .trening .formwrapper{
+      width:100%;
+      margin-top:5rem;
+  }
+
+    /*-------O MENI----------------------*/
+
+
+    .omeni{
+        margin-top:10rem;
+        display:flex;
+        padding-bottom:10rem;
+    }
+
+
+    .profilepic{
+        width:60%;
+        display:flex;
+        justify-content:center;
+        margin:0 ;
+        padding:2rem 0rem;
+
+    }
+    .profilepic img{
+        width:18rem;
+        border-radius:50%;
+        
+        
+       
+    }
+
+    .profil h1,p{
+        width:100%;
+    }
+
+.profil {
+    width: 60%;
+    box-shadow: -6px -6px 26px 0 rgba(255,255,255,0.83), 6px 6px 16px 0 rgba(217,210,200,0.51);
+   
+    padding: 2rem;
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.2);
+    margin-right: 1.5rem;
+}
+
+.karijera {
+    width: 40%;
+    box-shadow: -6px -6px 26px 0 rgba(255,255,255,0.83), 6px 6px 16px 0 rgba(217,210,200,0.51);
+    border-radius: 20px;
+    padding: 2rem;
+}
+
+    .omeni p{
+        padding-top:1rem;
+    }
+
+    .omeni h1{
+        font-size:2rem;
+    }
+
+.slikeomeni {
+    display: flex;
+    padding: 3rem 0 10rem;
+    justify-content:space-between;
+}
+
+
+
+.slika p{
+    padding:1rem;
+    text-align:center;
+    font-weight:500;
+}
+    .slikeomeni img{
+      width:100%;
+       margin:auto;
+       border-radius:20px;
+        
+    }
+
+    .certifikati{
+        display:flex;
+        
+        justify-content:space-between;
+        padding:3rem 0 10rem;
+    }
+
+    
+
+ /*----------KLIJENTI-------------------------------------------*/       
+
+
+ .klijenti h1{
+     padding-top:4rem;
+     text-align:center;
+     font-weight:500;
+ }
+
+ .klijenti h2{
+     font-size:22px;
+     padding-top:1.5rem;
+     text-align:center;
+ }
+
+ .klijenti p{
+     text-align:center;
+     font-weight:500;
+     padding:1rem ;
+ }
+
+ .iskustva{
+     display:flex;
+     flex:1;
+     justify-content:space-between;
+     padding:10rem 0;
+     
+ }
+
+.klijentkartica {
+    width: 30%;
+    box-shadow: -6px -6px 26px 0 rgba(255,255,255,0.9), 6px 6px 16px 0 rgba(217,210,200,0.6);
+    border-radius:20px;
+    
+}
+
+ .klijentkartica img{
+     width:100%;
+     border-radius:20px;
+ }
+
+/*--------------FOOTER----------------------------------------*/
+
+footer {
+    
+    height: 150px;
+    background-color: rgb(43, 43, 43);
+}
+
+.footer {
+    color: white;
+    font-family: 'Dancing Script';
+    font-size: 24px;
+    
+    
+  
+}
+
+    
+
+footer a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.35s ease-out;
+    position:relative;
+    
+}
+
+    footer a:hover {
+        color: $primary-color;
+        transition-duration: 0.3s;
+    }
+
+
+
+/*------------MEDIA QUERY-----------------------------------------*/
+@media(max-width:480px){
+    
+    .container {
+        width: 80%;
+    }
+
+    .dario img {
+        height: 30px;
+    }
+
+    .sidepanel {
+        width: 0;
+        position: fixed;
+        z-index: 999;
+        height: 100vh;
+        top: 0;
+        right: 0;
+        background: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        display: initial;
+        text-align: center;
+    }
+
+
+        .sidepanel a {
+            text-decoration: none;
+            font-size: 16px;
+            color: white;
+            transition: 0.3s;
+        }
+
+        .sidepanel .closebtn {
+            position: absolute;
+            top: 0;
+            left: 0px;
+            font-size: 36px;
+            display: inline-block !important;
+        }
+
+    .openbtn {
+        display: initial;
+        position: absolute;
+        right: 30px;
+        top: 15px;
+    }
+
+
+    .dario {
+        position: absolute;
+        left: 0;
+        top: 10px;
+        font-size: 16px;
+    }
+
+
+    .active {
+        color: $primary-color !important;
+    }
+
+    #overlay {
+        z-index: 5;
+        height: 100vh;
+        background-color: rgba(0,0,0,0.5);
+        width: 0;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        transition: 0.3s;
+    }
+    /*-----KONTAKT------------*/
+    .kontakt{
+        flex-wrap:wrap;
+    }
+
+    .lijevo{
+        flex:100%;
+        padding:0;
+    }
+
+    .desno{
+        flex:100%;
+        padding:0;
+        
+    }
+
+    /*online trening-------------------*/
+
+    .modal-content {
+        width: 90%;
+    }
+
+    .red33{
+        display:flex;
+        flex:100%;
+        flex-wrap:wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .red33 p{
+        width:100%;
+    }
+
+    .trening{
+        flex-wrap: wrap;
+    }
+    .left{
+        width:100%;
+          
+          
+      }
+      .trening .formwrapper{
+          width:100%;
+          margin-top:5rem;
+      }
+
+  
+   
+
+   
+
+    .h2gal{
+        padding:0;
+        text-align: center;
+        padding-bottom:2rem;
+    }
+
+    /*------O MENI----------------*/
+
+
+    .omeni{
+        flex-wrap:wrap;
+    }
+    .profil{
+        width:100%;
+        margin:0 auto;
+    }
+
+    .karijera{
+        width:100%;
+        margin-top:2rem;
+    }
+
+    .slikeomeni{
+        flex-wrap:wrap;
+    }
+
+    .slika{
+        width:100%;
+        padding-top:1.5rem;
+    }
+
+    .profilepic{
+        width:100%;
+        margin:2rem 0;
+    }
+
+    .certifikati{
+        flex-wrap:wrap;
+    }
+    .certifikati img{
+        width:100%;
+        padding-top:2rem;
+    }
+
+    /*------------KLIJENTI------------*/
+
+    .klijentkartica{
+        width:100%;
+        margin-bottom:3rem;
+    }
+
+    .iskustva{
+        flex-wrap:wrap;
+        padding:5rem 0 10rem;
+    }
+
+    .klijenti h1{
+        padding-top:5rem;
+    }
+
+    /*----------FOOTER----------*/
+    .footer img {
+        height: 30px;
+    }
+
+    .footer a {
+        font-size: 16px;
+    }
+
+}

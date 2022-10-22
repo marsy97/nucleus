@@ -1,0 +1,634 @@
+$primary-color:#C16329;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins'!important;
+    
+}
+
+body {
+    
+    background-color:#efeeee;
+}
+
+.container {
+    padding: 0;
+}
+
+/*-------------------HEADER--------------------------------------------*/
+header {
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(0deg,rgba(4,15,30,0.4),rgba(4,15,30,0.4)),url("../public/front.jpg");
+    background-repeat: no-repeat;
+    background-position:100% 30%;
+    background-size: cover;
+    position: relative;
+    margin: 0;
+
+   
+}
+
+
+/*TEKST NA SREDINI-----------------------------------------------------*/
+
+span{
+    font-weight:700;
+    color:rgb(255, 246, 230);
+}
+
+.text {
+    color: white;
+    width: 50%;
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-family: 'poppins';
+    font-weight: 500;
+    animation: fadein 3s;
+}
+
+.text h1{padding-bottom:50px;
+         font-family:'poppins';
+         font-size:50px;
+         font-weight:700;
+         
+}
+
+.text p{
+    padding-bottom:20px;
+    width:70%;
+}
+
+    .text a {
+       
+        text-decoration: none;
+        font-size: 24px;
+        font-weight: 600;
+        color: white;
+        transition: background color 0.35s ease-out;
+        -webkit-transition: background color 0.35s ease-out;
+        border:white 2px solid;
+        padding:5px 20px;
+        
+        
+    }
+
+    .text a:hover{
+        transition-duration:0.3s;
+        color:$primary-color;
+        background-color:white;
+       
+    }
+
+/*----------------------------------------------------------------------*/
+
+/*---------------------ARTICLE-----------------------------------------*/
+
+.bjelo{
+    text-align:center;
+    font-family:'poppins';
+    font-weight:600;
+    font-size:24px;
+    color:rgba(0,0,0,0.8);
+    padding:130px 80px 80px;
+
+}
+
+.boxshadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0px;
+    flex: 30%;
+    margin-right: 3%;
+    background-color: #efeeee;
+    height:550px;
+}
+
+.zasto h3 {
+    text-align: center;
+    font-family: 'poppins';
+    font-weight: 600;
+    font-size: 24px;
+    color: rgba(0,0,0,0.8);
+    padding-top: 3rem;
+    padding-bottom: 20px;
+    width:80%;
+    margin:auto;
+    border-bottom: 2px solid $primary-color;
+}
+
+.zasto p {
+    text-align: center;
+    font-family: 'poppins';
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(0,0,0,0.8);
+    line-height: 140%;
+    padding: 40px 20px 20px 20px;
+    height: 200px;
+    
+}
+
+.zastoimg {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../public/zasto.jpeg");
+    
+    min-height: 30vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.zasto {
+    position: relative;
+    top: 50px;
+    display: flex;
+}
+    
+
+
+/*---------------------------------ZASTO ODABRATI MENE------------------*/
+
+
+
+ .zastoja h3 {
+    text-align: center;
+    font-family: 'poppins';
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    padding: 40px 20px 20px;
+    
+}
+
+.zastoja p {
+    text-align: left;
+    font-family: 'poppins';
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    padding: 20px 20px 60px ;
+}
+
+.zastoja a {
+    position: absolute;
+    bottom: 0;
+    transform: translate(-50%,-50%);
+    left: 20%;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    border: solid 3px rgba(155, 123, 36, 0.1);
+    padding: 5px 15px 5px ;
+    transition: 0.35s ease-out;
+    -webkit-transition: 0.35s ease-out;
+    background-color: rgba(146, 103, 23, 0.4);
+}
+
+.zastoja a:hover{
+    background-color:$primary-color;
+    color:white;
+}
+
+
+.box {
+    position: relative;
+    padding: 10px;
+    background-position:top;
+    margin-right: 3%;
+    flex: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.2));
+
+}
+
+.zastoja {
+    padding: 40px 0px 40px;
+    
+}
+
+/*--------------------CAROUSEL------------------------------------*/
+
+
+.carousel .control-dots .dot{
+    background:$primary-color!important;
+}
+
+.bgcolor{
+    background-color:rgba(0,0,0,0.8);
+   
+}
+
+/*------------------KONTAKT FORMA--------------------------------------------*/
+.home .formwrapper {
+    max-width: 500px;
+    width: 100%;
+    font-family: 'poppins';
+    position: relative;
+    bottom: 100px;
+    background-color: #efeeee;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding:30px;
+    border-radius:20px;
+    margin:auto;
+}
+
+.home input{
+    background-color:#efeeee;
+}
+
+.home textarea {
+    background-color: #efeeee;
+}
+
+.home .form{
+    margin:0 auto;
+    padding:0;
+    box-sizing:border-box;
+   
+}
+
+.home .formwrapper .title{
+    font-size:24px;
+    font-weight:700;
+    padding-bottom:10px;
+    
+}
+
+.home .formwrapper .form{
+    width:100%;
+}
+
+
+
+.home .formwrapper .form .input_field label{
+    width:200px;
+    margin-right:10px;
+    font-size:14px;
+    padding:10px 0px;
+    font-weight:500;
+}
+
+    .home .formwrapper .form .input_field .input,
+    .formwrapper .form .input_field .textarea {
+        width: 100%;
+        outline: none;
+        border: 1px solid $primary-color;
+        font-size: 15px;
+        padding: 8px 10px;
+        border-radius: 5px;
+        transition: all 0.3s ease ease-out;
+    }
+
+    .home .formwrapper .form .input_field .textarea {
+        resize:none;
+        height:125px;
+    }
+
+    .home .formwrapper .form .input_field .input:focus,
+    .formwrapper .form .input_field .textarea:focus {
+        border: 3px solid $primary-color;
+    }
+
+    .home .formwrapper .form .input_field .btn {
+        width: 100%;
+        background: $primary-color;
+        border: 0;
+        outline: none;
+        padding: 10px 0px;
+        margin-top: 20px;
+        text-align: center;
+        color: white;
+        font-family: 'poppins';
+        font-weight: 600;
+        letter-spacing: 0.5px;
+    }
+
+        .home .formwrapper .form .input_field .btn:hover {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+           
+        }
+
+.home .formimg {
+    background-image: url("../public/formimg.jpg");
+    min-height: 30vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+ /*------------------FOOTER--------------------------------------------------*/
+
+footer {
+    height: 150px;
+    background-color: rgb(43, 43, 43);
+}
+
+.footer {
+    color: white;
+    font-family: 'Dancing Script';
+    font-size: 24px;
+}
+
+    .footer img {
+        height: 100px !important;
+        padding-right: 20px;
+    }
+
+footer img {
+    text-decoration: none;
+    color: white;
+    transition: color 0.35s ease-out;
+    -webkit-transition: color 0.35s ease-out;
+    position: relative;
+    top: 30px;
+    
+}
+
+    footer a:hover {
+        color: $primary-color;
+        transition-duration: 0.3s;
+    }
+
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/*----------------MEDIA QUERY------------------------------------*/
+
+@media(max-width:480px){
+    
+    
+    .text{
+        margin-top:10rem;
+        width:80%;
+    }
+
+    .text h1 {
+        text-align: center;
+        font-size:40px;
+        padding-bottom:100px;
+        
+    }
+
+    .text p{width:60%;
+            text-align:center;
+            margin:auto;
+            padding-bottom:40px;
+            font-size:18px;
+    }
+
+    .text a {
+        color: $primary-color;
+        background-color: white;
+    }
+
+    .text {
+        width: 80%;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        font-family: 'poppins';
+        font-weight: 500;
+    }
+
+
+    .zastoimg{
+        display:none;
+    }
+
+
+    .bjelo{
+        padding-top:150px;
+
+    }
+
+    .footer img{height:30px;
+
+    }
+
+    .footer a{
+        font-size:16px;
+    }
+
+    /*---------------------------------------*/
+    .sidepanel {
+        width: 0;
+        position: fixed;
+        z-index: 999;
+        height: 100vh;
+        top: 0;
+        right: 0;
+        background: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        display: initial;
+        text-align: center;
+    }
+
+
+    .sidepanel a {
+        text-decoration: none;
+        font-size: 16px;
+        color: white;
+        transition: 0.3s;
+        
+        
+    }
+
+        .sidepanel .closebtn {
+            position: absolute;
+            top: 0;
+            left: 0px;
+            font-size: 36px;
+            display:inline-block !important;
+            
+        }
+
+    .openbtn {
+        display: initial;
+        position: absolute;
+        right: 30px;
+        top: 15px;
+        
+    }
+
+.active{
+    color:$primary-color !important;
+}
+
+        #overlay{z-index:5;
+                 height:100vh;
+                 background-color:rgba(0,0,0,0.5);
+                 width:0;
+                 position:fixed;
+                 top:0;
+                 bottom:0;
+                 right:0;
+                 left:0;
+                 transition:0.3s;
+        }
+        
+
+
+    }
+
+@media(max-width:420px) {
+    .container {
+        width: 80%!important;
+    }
+
+    header {
+        background-position: center;
+    }
+
+    .text h1 {
+        text-align: center;
+        font-size: 35px;
+        padding-bottom: 50px;
+    }
+
+    .text p {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        padding-bottom: 40px;
+        font-size:14px;
+    }
+
+    .text a {
+        color: $primary-color;
+        background-color: white;
+        font-size:20px;
+    }
+
+    .text {
+        width: 80%;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        
+        text-align: center;
+        font-family: 'poppins';
+        font-weight: 500;
+    }
+
+    .boxshadow {
+        
+        margin-bottom: 3rem;
+        padding-bottom: 0;
+    }
+
+    .box {
+        
+        flex: 100%;
+        margin-bottom: 3rem;
+        
+    }
+
+    .zastoimg {
+        display: none;
+    }
+
+    .zasto h3{
+        padding-top:1.5rem;
+    }
+
+
+
+    .bjelo {
+        padding-top: 150px;
+    }
+
+
+    .footer img {
+        height: 30px;
+    }
+
+    .footer a {
+        font-size: 16px;
+    }
+
+    /*---------------------------------------*/
+    .sidepanel {
+        width: 0;
+        position: fixed;
+        z-index: 999;
+        height: 100vh;
+        top: 0;
+        right: 0;
+        background: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        display: initial;
+        text-align: center;
+    }
+
+
+        .sidepanel a {
+            text-decoration: none;
+            font-size: 16px;
+            color: white;
+            transition: 0.3s;
+        }
+
+        .sidepanel .closebtn {
+            position: absolute;
+            top: 0;
+            left: 0px;
+            font-size: 36px;
+            display: inline-block !important;
+        }
+
+    .openbtn {
+        display: initial;
+        position: absolute;
+        right: 30px;
+        top: 15px;
+    }
+
+
+    .dario {
+        position: absolute;
+        left: 0;
+        top: 10px;
+    }
+
+
+
+    .active {
+        color: $primary-color !important;
+    }
+
+    #overlay {
+        z-index: 5;
+        height: 100vh;
+        background-color: rgba(0,0,0,0.5);
+        width: 0;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        transition: 0.3s;
+    }
+}
