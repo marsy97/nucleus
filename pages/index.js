@@ -32,7 +32,7 @@ export default function Home() {
 
 <Fade left>
     <h2 className="bjelo">
-        Zašto početi trenirati?
+    NASE USLUGE
     </h2>
 
 <div className="container">
@@ -41,18 +41,18 @@ export default function Home() {
         <div className="row">
           
             <div className="col boxshadow">
-                <h3>ZDRAVLJE</h3>
-                <p>Svaka fizička aktivnost je dobra za kardiovaskularni sustav,pospješuje lučenje dobrog kolesterola i smanjuje nezdrave trigliceride.</p>
+                <h3>ONLINE TRENING SPORTASA I REKREATIVACA </h3>
+                <p>Kompletni individualizirani treninzi, programirani iskljucivo personalizirano, ovisno o mogucnostima, ciljevima i razini spremnosti nasih klijenata. U svakom treningu dobijete kompletno objasnjenje vjezbi, video te sve sto vam je potrebno. Isto tako vas trener ce vam biti maksimalno na raspolaganju za bilo kakva pitanja koja cete imati.</p>
             </div>
            
             <div className="col boxshadow">
-                <h3>RASPOLOŽENJE</h3>
-                <p>Brojne kemikalije u mozgu se stimuliraju vježbom,što dovodi do osjećaja sreće,opuštenosti i smanjene anksioznosti i stresa.</p>
+                <h3>INDIVIDUALNI I POLUINDIVIDUALNI TRENINZI REKREATIVACA</h3>
+                <p>Nas primarni cilj u treningu rekreativaca je poboljšanje funkcionalnih sposobnosti zajedno sa vašim ciljevima koje želite postići u određenom periodu. Planiranje i programiranje trenažnih procesa kako biste sve svoje aktivnosti u svom svakodnevnom životu odradili lakse i bez bolova. Današnja svakodnevnica je nažalost sjedilački nacin života, koji za sobom nosi dosta posljedica, kratkoročnih i dugoročnih. Ako želite to promjeniti, mi smo pravi izbor za vas. </p>
             </div>
 
             <div className="col boxshadow">
-                <h3>ENERGIJA</h3>
-                <p>Redovita tjelesna aktivnost može poboljšati snagu i izdržljivost opskrbom tkiva kisikom i hranjivim tvarima što pomaže srcu da radi učinkovitije i daje nam više energije.</p>
+                <h3>INDIVIDUALNI I POLUINDIVIDUALNI TRENINZI SPORTAŠA</h3>
+                <p>U današnje doba gdje se granice zahtjeva sporta probijaju iz sezone u sezonu, gotovo je nemoguće uspjeti bez kvalitetnog kondicijskog individualnog rada. Mi vam nudimo kompletan kondicijski trening, testiranje, praćenje napretka, programiranje I planiranje treninga koji će vam pomoći da poboljšate svoj cjelokupni sportski performans I smanjite rizik od ozljeda.</p>
             </div>
             
         </div>
