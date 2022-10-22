@@ -5,7 +5,20 @@ import Testimonials from "../components/testimonials";
 
 
 
-export default function Home() {
+export default function Home() {visualViewport
+    const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_96eh3us', 'template_ol3zfmr', form.current, 'user_i2loudRSXhAnmh36cSkNG')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+  v
   return (
       <>
       
@@ -80,30 +93,30 @@ export default function Home() {
     <div className="formwrapper">
         <div className="title">Prijavi se</div>
 
-        <form className="form">
+        <form ref={form} onSubmit={sendEmail} className="form">
 
             <div className="input_field">
                 <label>Ime i Prezime</label>
-                <input className="input" />
+                <input className="user_namev" />
                               
                 
             </div>
 
             <div className="input_field">
                 <label>Telefon</label>
-                <input type="tel"  className="input" />
+                <input type="user_tel"  className="input" />
                 
             </div>
 
             <div className="input_field">
                 <label>Email</label>
-                <input type="email"   className="input" />
+                <input type="user_email"   className="input" />
                 
             </div>
 
             <div className="input_field">
                 <label>Poruka</label>
-                <textarea name="poruka"  className="textarea"></textarea>
+                <textarea name="message"  className="textarea"></textarea>
             </div>
 
             <div className="input_field">
