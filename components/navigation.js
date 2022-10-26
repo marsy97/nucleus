@@ -65,12 +65,12 @@ function Navigation() {
                 
 
                   <Link href="/Blog">
-                    <a className={styles.link}>BLOG</a>
+                    <a className={styles.link}>INDIVIDUALNI TRENINZI</a>
                     </Link>
                
 
                   <Link href="/onama">
-                    <a className={styles.link}>O NAMA</a>
+                    <a className={styles.link}>O MENI</a>
                   </Link>
                 
 
